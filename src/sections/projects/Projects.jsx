@@ -141,15 +141,15 @@ const Projects = () => {
                             return (   <div key={index} className="project relative cursor-pointer rounded-xl mb-6 min-w-[300px] max-w-[400px] h-[220px] hover:-translate-y-5 overflow duration-300">
                                     {/* Pic */}
                                     <div className='overflow-hidden relative rounded-xl w-full h-full'>
-                                        <img src={pro.img} className='w-full h-full duration-[1000ms]' />
+                                        <img src={pro.img} className='w-full h-full duration-[1000ms]' loading="lazy" alt="pro-img"/>
                                         {/* TEQ */}
                                         <div className = 'teq w-full text-white z-20 absolute -bottom-[50%] p-4 second-bg opacity-90 flex flex-wrap items-center justify-center gap-3 duration-500' >
                                             {
                                                 pro.technologies.map((tech, index) => {
                                                     return (
-                                                            <span key={index} className='bg-slate-100 font-medium second-color px-2 py-0.5 rounded-md'>
-                                                                {tech}
-                                                            </span>
+                                                        <span key={index} className='bg-slate-100 font-medium second-color px-2 py-0.5 rounded-md'>
+                                                            {tech}
+                                                        </span>
                                                     )
                                                 })
                                             }
@@ -157,13 +157,13 @@ const Projects = () => {
                                     </div>
                                     {/* Open */}
                                     <div className='open-pro -z-10 flex gap-2 justify-between items-center absolute w-full px-4 bottom-[50%] text-white pt-3 duration-500'>
-                                        <a href={pro.github} target="_blank">
+                                        <a href={pro.github} target="_blank" aria-label="github">
                                             <span className='flex gap-4 items-center justify-center px-3 py-1 rounded-md bg-slate-100 text-black font-medium text-md border border-slate-100 hover:text-white hover:bg-transparent duration-300'>
                                                 <SiGithub />
                                                 GitHub
                                             </span>
                                         </a>
-                                        <a href={pro.preview} target="_blank">
+                                        <a href={pro.preview} target="_blank" aria-label="preview">
                                             <span className='flex gap-4 items-center justify-center px-3 py-1 rounded-md main-bg text-white font-medium text-md border border-sky-500 hover:text-white hover:bg-transparent duration-300'>
                                                 <FaRegEye />
                                                 Preview

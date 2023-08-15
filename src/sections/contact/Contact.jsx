@@ -29,21 +29,21 @@ const Contact = () => {
                                 <HiOutlineMail className="text-4xl text-white"/>
                                 <p className="text-3xl text-white mt-4 mb-1 font-semibold">Email</p>
                                 <span className="text-gray-500 font-bold">mohammedgomaa2522@gmail.com</span>
-                                <a href="mailto:mohammedgomaa2522@gmail.com" target="_blank" className="main-color cursor-pointer font-medium text-lg mt-4">Send a message</a>
+                                <a href="mailto:mohammedgomaa2522@gmail.com" target="_blank" className="main-color cursor-pointer font-medium text-lg mt-4" aria-label="email">Send a message</a>
                             </div>
                             {/* Box-2 */}
                             <div className="row w-80 flex flex-col justify-center items-center bg-slate-950 rounded-2xl p-11 hover:bg-transparent border-slate-800 border-2 duration-300">
                                 <RiMessengerLine className="text-4xl text-white"/>
                                 <p className="text-3xl text-white mt-4 mb-1 font-semibold">Messenger</p>
                                 <span className="text-gray-500 font-bold">mohammedgomaa2522</span>
-                                <a href="https://m.me/mohammedgomaa2522" target="_blank" className="main-color cursor-pointer font-medium text-lg mt-4">Send a message</a>
+                                <a href="https://m.me/mohammedgomaa2522" target="_blank" className="main-color cursor-pointer font-medium text-lg mt-4" aria-label="message">Send a message</a>
                             </div>
                             {/* Box-3 */}
                             <div className="row w-80 flex flex-col justify-center items-center bg-slate-950 rounded-2xl p-11 hover:bg-transparent border-slate-800 border-2 duration-300">
                                 <AiOutlineWhatsApp className="text-4xl text-white"/>
                                 <p className="text-3xl text-white mt-4 mb-1 font-semibold">WhatsApp</p>
                                 <span className="text-gray-500 font-bold">+20-1026-053-956</span>
-                                <a href="https://api.whatsapp.com/send?phone=+201026053956" target="_blank" className="main-color cursor-pointer font-medium text-lg mt-4">Send a message</a>
+                                <a href="https://api.whatsapp.com/send?phone=+201026053956" target="_blank" className="main-color cursor-pointer font-medium text-lg mt-4" aria-label="whatsapp">Send a message</a>
                             </div>
                         </div>
                         {/* Form */}

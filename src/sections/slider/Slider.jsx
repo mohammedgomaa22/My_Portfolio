@@ -20,10 +20,10 @@ const Header = () => {
                             </div>
                             {/* Button */}
                             <div className="btn">
-                                <a href={CV}  download>
+                                <a href={CV}  download aria-label="download cv">
                                     <button className="main-btn main-color mr-5">Download CV</button>
                                 </a>
-                                <a href="#contact">
+                                <a href="#contact" aria-label="contact">
                                     <button className="main-btn main-bg hover:text-white hover:bg-transparent">Let's Talk</button>
                                 </a>
                             </div>
@@ -35,13 +35,13 @@ const Header = () => {
                     </div>
                     {/* Social ------------------ */}
                     <div className="social w-fit flex flex-col justify-center items-center gap-4 absolute bottom-10 left-2 main-color">
-                        <a className="linkedin text-xl hover:scale-150 duration-300" href="https://www.linkedin.com/in/mohammed-gomaa-09a31b221/" target="_blank">
+                        <a className="linkedin text-xl hover:scale-150 duration-300" href="https://www.linkedin.com/in/mohammed-gomaa-09a31b221/" target="_blank" aria-label="linkedin">
                             <FaLinkedin />
                         </a>
-                        <a className="github text-xl hover:scale-150 duration-300" href="https://github.com/mohammedgomaa22" target="_blank">
+                        <a className="github text-xl hover:scale-150 duration-300" href="https://github.com/mohammedgomaa22" target="_blank" aria-label="github">
                             <FaGithubSquare />
                         </a>
-                        <a className="facebook text-xl hover:scale-150 duration-300" href="https://www.facebook.com/mohammedgomaa2522/" target="_blank">
+                        <a className="facebook text-xl hover:scale-150 duration-300" href="https://www.facebook.com/mohammedgomaa2522/" target="_blank" aria-label="facebook">
                             <FaFacebookSquare />
                         </a>
                         <div className="line h-9 w-0.5 main-bg"></div>

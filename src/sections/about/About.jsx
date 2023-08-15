@@ -40,7 +40,7 @@ const About = () => {
                             {/* Text */}
                             <p className="text-gray-500 font-semibold text-lg md:w-[720px] mx-auto xl:m-0 text-center xl:text-left">I am a passionate junior front-end developer with a keen eye for design and a strong understanding of web development technologies, In addition to technical expertise, skilled with problem-solving skills and attention to detail.</p>
                             {/* BTN */}
-                            <a href="#contact" className="w-fit mx-auto xl:mx-0">
+                            <a href="#contact" className="w-fit mx-auto xl:mx-0" aria-label="contact">
                                 <button className="main-btn main-bg w-fit hover:bg-transparent">Let's Talk</button>
                             </a>
                         </div>
