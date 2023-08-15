@@ -1,0 +1,12 @@
+nav a {
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 50%;
+}
+nav a:hover {
+    color: white;
+}
+.active {
+    background-color: #00000070;
+    color: white;
+}

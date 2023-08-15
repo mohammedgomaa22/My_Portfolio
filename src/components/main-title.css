@@ -1,0 +1,17 @@
+.main-title {
+    width: fit-content;
+    margin: 0 auto 50px;
+    padding: 10px 30px;
+    text-align: center;
+}
+.main-title span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #888;
+}
+.main-title h2 {
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--main-color);
+}
